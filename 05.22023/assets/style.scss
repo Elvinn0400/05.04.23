@@ -1,0 +1,46 @@
+.navbar{
+    background-image: url(https://awsimages.detik.net.id/community/media/visual/2021/09/21/kafe-coworking-space-1.jpeg?w=1200);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    ul{
+        li{
+            list-style: none;
+            display: inline-block;
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+}
+.alt{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(42, 165, 128);
+    width: 80%;
+    margin: 20px 10%;
+    justify-content: flex-end;
+    gap: 50px;
+    height: 60px;
+    align-items: center;
+    padding-right: 20px;
+    transition: all .3s;
+    font-weight: 600;
+    img{
+        padding-right: 20%;
+    }
+    li a{
+        color: black;
+    }   
+}
+.alt :hover{
+color: aqua;
+}
+
+.ust{
+display: flex;
+align-items: center;
+#bar{
+    padding-right: 5%;
+}
+}
